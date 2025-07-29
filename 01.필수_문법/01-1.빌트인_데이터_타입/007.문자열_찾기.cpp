@@ -26,3 +26,8 @@ int main() {
 
     return 0;
 }
+
+/* string의 find 함수
+ * - 반환값: size_t (인덱스 위치)
+ * - 못찾으면: string::npos 반환
+ */
