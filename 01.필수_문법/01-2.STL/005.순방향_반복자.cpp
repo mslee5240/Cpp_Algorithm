@@ -11,7 +11,7 @@ int main() {
     for (auto it = vec.begin(); it != vec.end(); ++it) {
         cout << *it << " ";
     }
-    cout << endl;   // 출력: 10 20 30 40 50
+    cout << endl;   // 10 20 30 40 50
     
 
     // 탐색
@@ -20,7 +20,7 @@ int main() {
         cout << "Found: " << *result << endl;   
     } else {
         cout << "Not found" << endl;
-    }   // 출력: 30
+    }   // Found: 30
     
 
     return 0;
