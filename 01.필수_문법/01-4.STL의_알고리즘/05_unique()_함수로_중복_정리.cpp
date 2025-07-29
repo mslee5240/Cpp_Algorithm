@@ -22,7 +22,7 @@ int main() {
     // 벡터의 크기 출력
     cout << v.size() << endl;  // 11
 
-    // 전체 원소 출력
+    // 전체 원소 출력 
     for (auto it = v.begin(); it != v.end(); ++it) {
         cout << *it << " ";
     }
